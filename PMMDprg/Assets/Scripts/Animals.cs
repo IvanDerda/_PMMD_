@@ -9,9 +9,14 @@ public abstract class Animals : MonoBehaviour
     private int step;
 
     public abstract string Sounds();
+
+    public abstract void Fly();
 }
 
 public interface Move
 {
     void Run();
+    void Jump();
 }
+
+

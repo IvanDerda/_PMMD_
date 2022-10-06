@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class Perot : Animals
 {
     public Text text;
+    public Text text1;
     public override string Sounds()
     {
         sound = "Привіт";
@@ -14,5 +15,11 @@ public class Perot : Animals
     public void OnClick()
     {
         text.text = sound;
+        text1.text = "";
+    }
+
+    public override void Fly()
+    {
+        throw new System.NotImplementedException();
     }
 }
