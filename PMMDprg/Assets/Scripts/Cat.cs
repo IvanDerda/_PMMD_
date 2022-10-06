@@ -23,4 +23,14 @@ public class Cat :Animals, Move
     {
         speed = 10;
     }
+
+    public void Jump()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void Fly()
+    {
+        throw new System.NotImplementedException();
+    }
 }

@@ -25,4 +25,13 @@ public class Dog : Animals , Move
       speed= 12;
     }
 
+    public void Jump()
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public override void Fly()
+    {
+        throw new System.NotImplementedException();
+    }
 }
